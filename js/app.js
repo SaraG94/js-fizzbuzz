@@ -9,16 +9,15 @@ for (let i =0; i<100; i++) {
     const restoMultiploCinque = (i+1)% 5
     
     //Iimpostare resto multipli di 3
+    const restoMultiploTre =(i+1)%3
 
-    //multipli di 15 FizzBuzz, multipli di 5 Buzz
+    //multipli di 15 FizzBuzz, multipli di 5 Buzz, multipli di 3 Fizz
     if (restoMultiploQ === 0){
         console.log('FizzBuzz')
-    }else if(restoMultiploCinque ===0){
+    }else if(restoMultiploCinque === 0){
         console.log('Buzz')
-    }
-
-    
-    
-    
+    }else if(restoMultiploTre === 0){
+        console.log('Fizz')
+    }   
 }
 
