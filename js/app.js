@@ -19,6 +19,8 @@ for (let i =0; i<100; i++) {
         console.log('Buzz')
     }else if(restoMultiploTre === 0){
         console.log('Fizz')
-    }   
+    }else{
+        console.log(num)
+    }
 }
 
